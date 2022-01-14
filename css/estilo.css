@@ -11,8 +11,8 @@ p{
 }
 
 a{
-	color: white;
-	text-decoration: none;
+	color: white !important;
+	text-decoration: none !important;
 	font-size: 2rem;
 }
 
@@ -28,7 +28,7 @@ a{
 
 /*responsive*/
 
-.container {
+.containers {
     display: grid;
     height: 100vh;
     grid-template-areas:
@@ -47,6 +47,7 @@ header {
 	justify-content: space-around;
 	position: sticky;
 	top: 0;
+	z-index: 2;
 }
 
 section {
@@ -118,8 +119,6 @@ h1 {
 	font-family: 'Raleway-Bold';
 	font-size: 4rem;
 	margin: 50px 50px 0 50px;
-	/* margin-left: 50px;
-	margin-top: 50px; */
 	border-top: solid 2px black ;
 	border-bottom: solid 2px black ;
 
@@ -154,8 +153,6 @@ h3 {
 	justify-content: start;
 	align-items: flex-start;
 	margin: 0 50px 20px 50px;
-	/* margin-left: 50px;
-	margin-bottom: 20px; */
 	padding: 30px;
 }
 
@@ -166,15 +163,14 @@ h3 {
 	overflow: auto
 }
 
+.dropdown-item:focus, .dropdown-item:hover {
+
+	background-color: rgba(31, 127, 151, 0.658) !important;
+
+}
+
 @media screen and (max-width: 768px){
 	
-	nav ul{
-		list-style-type: none;
-		display:flex;
-		flex-direction: column;
-		justify-content: space-between;
-		align-items: flex-start;
-	}
 	.noticia {
 		display: flex;
 		width: auto;
@@ -204,8 +200,6 @@ h3 {
 		flex-direction: column;
 		justify-content: start;
 		align-items: flex-start;
-		/* margin-left: 50px;
-		margin-bottom: 20px; */
 		padding: 30px;
 	}
 	
