@@ -36,7 +36,7 @@ header {
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   grid-area: header;
-  background-color: rgba(31, 127, 151, 0.658);
+  background-color: #083b3d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -276,4 +276,4 @@ h3 {
     overflow: auto;
   }
 }
-/*# sourceMappingURL=style-sass.css.map */
+/*# sourceMappingURL=style.css.map */

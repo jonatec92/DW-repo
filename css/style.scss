@@ -1,5 +1,3 @@
-$colormain: rgba(31, 127, 151, 0.658) ;
-
 *{
 	margin: 0;
 	padding: 0;
@@ -19,8 +17,7 @@ html { font-size: 62.5%;}
 		src: url('../assets/font/Amstagram.ttf');
 }
 
-
-@import "layout" ;
+@import "layoutt" ;
 
 p{
 	font-size: 2rem;
@@ -39,12 +36,13 @@ a{
 
 nav{
 	width: 50%;
-     ul{
+    ul{
         list-style-type: none;
         display:flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;}
+        align-items: center;
+    }
 }
 
 li{
@@ -61,7 +59,7 @@ img {
 }
 
 .noticia {
-	border-top: solid 2px $colormain;
+	border-top: solid 2px rgba(31, 127, 151, 0.658);
 	height: 500px;
 	display: flex;
 	background-color: rgb(245, 245, 245);
@@ -126,8 +124,8 @@ h3 {
 
 .dropdown-item:focus, .dropdown-item:hover {
 
-	background-color: $colormain !important;
+	background-color: rgba(31, 127, 151, 0.658) !important;
 
 }
 
-@import "media" ;
+@import "mediaa" ;

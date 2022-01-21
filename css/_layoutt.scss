@@ -1,3 +1,4 @@
+$colormenu: rgb(8, 59, 61);
 /*responsive*/
 
 .containers {
@@ -12,7 +13,7 @@
 header {
 
     grid-area: header;
-    background-color: $colormain;
+    background-color: $colormenu;
 	display:flex;
 	flex-direction: row;
 	align-items: center;
