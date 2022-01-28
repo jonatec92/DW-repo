@@ -2,3 +2,20 @@ En el archivo index.html sumé el SEO con las siguientes características:
 Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Instrumentos musicales para musicos, bandas, conciertos, escuelas y mas."
 Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "INSTRUMENTOS MUSICALES, MUSICA, BATERIAS,GUITARRAS, TECLADOS, MUSICA"
 Encabezado: para el encabezado del h1 utilicé el texto “JEC MUSIC”
+
+En el archivo productos.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “JEC MUSIC, nuestros productos, encontra todo lo que buscas."
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "INSTRUMENTOS MUSICALES, MUSICA, BATERIAS,GUITARRAS, TECLADOS, MUSICA"
+Encabezado: para el encabezado del h1 utilicé el texto “NUESTROS PRODUCTOS”
+
+En el archivo marcas.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “JEC MUSIC, estas son las marcas con las cuales trabajamos."
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "INSTRUMENTOS MUSICALES, MUSICA, BATERIAS,GUITARRAS, TECLADOS, MUSICA"
+
+En el archivo ubicacion.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “JEC MUSIC, aca encontraras nuestra ubicacion."
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "INSTRUMENTOS MUSICALES, MUSICA, BATERIAS,GUITARRAS, TECLADOS, MUSICA"
+
+En el archivo contacto.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “JEC MUSIC envianos tu contacto para que podamos ayudarte."
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "INSTRUMENTOS MUSICALES, MUSICA, BATERIAS,GUITARRAS, TECLADOS, MUSICA"
