@@ -94,6 +94,10 @@ footer {
 }
 
 /* fin responsive*/
+.container {
+  padding: 30px !important;
+}
+
 p {
   font-size: 2rem;
   padding-top: 10px;
@@ -180,7 +184,9 @@ h2 {
 }
 
 h3 {
+  margin-top: 5% !important;
   font-family: sans-serif;
+  text-align: center;
 }
 
 .video-responsive {
@@ -275,5 +281,24 @@ h3 {
     margin: 20px 0;
     overflow: auto;
   }
+}
+
+.marca-f1 {
+  background-color: rgba(255, 0, 0, 0.26);
+}
+
+.marca-f2 {
+  background-color: rgba(0, 47, 255, 0.267);
+}
+
+.marcas-secundaria, .marcas-principal {
+  margin-bottom: 10px;
+  height: 35px;
+  width: 100%;
+  font-family: 'Raleway-Bold';
+}
+
+.marcas-principal {
+  font-size: 3rem;
 }
 /*# sourceMappingURL=style.css.map */

@@ -18,7 +18,9 @@ html { font-size: 62.5%;}
 }
 
 /*responsive*/
-
+.container {
+	padding: 30px !important;
+}
 .containers {
     display: grid;
     height: 100vh;
@@ -132,7 +134,10 @@ h2 {
 	font-size: 3rem;
 }
 h3 {
+	margin-top: 5% !important;
 	font-family: sans-serif;
+	text-align: center;
+	
 }
 
 .video-responsive {
@@ -212,4 +217,8 @@ h3 {
 		margin: 20px 0;
 		overflow: auto
 	}
+}
+
+.marca-f1{
+	background-color: salmon;
 }

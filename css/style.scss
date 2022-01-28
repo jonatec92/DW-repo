@@ -19,6 +19,10 @@ html { font-size: 62.5%;}
 
 @import "layoutt" ;
 
+.container {
+	padding: 30px !important;
+}
+
 p{
 	font-size: 2rem;
 	padding-top: 10px;
@@ -87,8 +91,12 @@ h2 {
 	font-family: 'Raleway-Bold';
 	font-size: 3rem;
 }
+
 h3 {
+	margin-top: 5% !important;
 	font-family: sans-serif;
+	text-align: center;
+	
 }
 
 .video-responsive {
@@ -116,8 +124,7 @@ h3 {
 }
 
 .productos article {
-	width: 50%;
-	height: 90%;
+	@include sizes(50%, 90%);
 	margin: 30PX;
 	overflow: auto
 }
@@ -129,3 +136,35 @@ h3 {
 }
 
 @import "mediaa" ;
+
+$marcas:(
+	1:rgba(255, 0, 0, 0.26),
+	2:rgba(0, 47, 255, 0.267)
+);
+
+@each $marca,$color in $marcas {
+
+	.marca-f#{$marca}{
+		background-color: $color;
+	}
+	
+}
+
+@mixin sizes($width, $height) {
+	height: $height;
+	width: $width;
+} 
+
+.marcas-secundaria{
+	margin-bottom: 10px;
+	@include sizes(100%, 35px);
+	font-family: 'Raleway-Bold';
+	
+}
+
+.marcas-principal{
+	@extend .marcas-secundaria;
+	font-size: 3rem;
+
+}
+
