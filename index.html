@@ -21,7 +21,7 @@
 <body>
     <div class="container-fluid p-0">
         <!--Cabecera-->
-        <div class="header">
+        <header>
             <div class="top-bar">
                 <div class="container">
                     <div class="d-flex justify-content-end gap-2">
@@ -31,14 +31,14 @@
                     </div>
                 </div>
             </div>
-            <nav>
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
-                    <i class="fa-solid fa-bars"></i>
+            <input type="checkbox" id="btn-menu">
+            <a href="index.html">
+                <img src="assets/images/logo.png" alt="Logo JEC Music">
+            </a>
+                <label for="btn-menu">
+                    <span><i class="fa-solid fa-bars"></i></span>
                 </label>
-                <a href="index.html">
-                    <img src="assets/images/logo.png" alt="Logo JEC Music">
-                </a>
+            <nav class="menu">
                 <ul>
                     <li><a href="./pages/productos.html">PRODUCTOS</a></li>
                     <li><a href="./pages/marcas.html">MARCAS</a></li>
@@ -46,14 +46,14 @@
                     <li><a href="./pages/contacto.html">CONTACTO</a></li>
                 </ul>
             </nav>
-        </div>
-        <header>
+        </header>
+        <div class="header">
             <section class="col-md-4 text-header ">
                 <h1>SOMOS JEC MUSIC</h1>
                 <h3>Nos dedicamos a la importación y distribución de Instrumentos Musicales</h3>
             </section>
             <div class="wave"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"></path></svg></div>
-        </header>
+        </div>
         <!-- Fin de Cabecera-->
         <!-- Main -->
         <main>

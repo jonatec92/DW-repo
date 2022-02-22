@@ -20,7 +20,7 @@
 <body>
     <div class="container-fluid p-0">
         <!--Cabecera-->
-        <div class="header">
+        <header>
             <div class="top-bar">
                 <div class="container">
                     <div class="d-flex justify-content-end gap-2">
@@ -30,22 +30,22 @@
                     </div>
                 </div>
             </div>
-            <nav>
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
-                    <i class="fa-solid fa-bars"></i>
+            <input type="checkbox" id="btn-menu">
+            <a href="../index.html">
+                <img src="../assets/images/logo.png" alt="Logo JEC Music">
+            </a>
+                <label for="btn-menu">
+                    <span><i class="fa-solid fa-bars"></i></span>
                 </label>
-                <a href="../index.html">
-                    <img src="../assets/images/logo.png" alt="Logo JEC Music">
-                </a>
+            <nav class="menu">
                 <ul>
-                    <li><a href="productos.html">PRODUCTOS</a></li>
-                    <li><a href="marcas.html">MARCAS</a></li>
-                    <li><a href="nosotros.html">NOSOTROS</a></li>
-                    <li><a href="contacto.html">CONTACTO</a></li>
+                    <li><a href="./productos.html">PRODUCTOS</a></li>
+                    <li><a href="./marcas.html">MARCAS</a></li>
+                    <li><a href="./nosotros.html">NOSOTROS</a></li>
+                    <li><a href="./contacto.html">CONTACTO</a></li>
                 </ul>
             </nav>
-        </div>
+        </header>
         <!-- Fin de Cabecera-->
         <!-- Main -->
         <main>
@@ -60,10 +60,7 @@
                                     <strong>E-mail:</strong> <a href="mailto:ventas@mjmusic.com.ar">ventas@jecmusic.com.ar</a> 
                                 </p>
                             </div>
-                            <div class="col">
-                            <iframe class="my-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.7873019635226!2d-58.56411608417346!3d-34.6600741679904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7d09a8ebb39%3A0x5bf42ffcf22c2dee!2sAv.%20de%20Mayo%201882%2C%20B1704BVS%20Ramos%20Mej%C3%ADa%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1645485391396!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                            </div>
-                            <h5><strong>Formulario de Contacto</strong></h5>
+                            <h5 class="mt-5"><strong>Formulario de Contacto</strong></h5>
                             <p>Por favor complete el formulario para dejar su consulta o comentario.</p>
                             <div class="row">
                                 <div class="form-group col-md-4">
@@ -95,6 +92,9 @@
                                 </div>
                             </div>
                             </form>
+                            <div class="col">
+                                <iframe class="my-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.7873019635226!2d-58.56411608417346!3d-34.6600741679904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7d09a8ebb39%3A0x5bf42ffcf22c2dee!2sAv.%20de%20Mayo%201882%2C%20B1704BVS%20Ramos%20Mej%C3%ADa%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1645485391396!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                </div>
                         </div>
                     </div>
                 </div>
