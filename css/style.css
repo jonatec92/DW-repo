@@ -180,7 +180,7 @@ header label:hover{
     height: 100%;
     top: 0;
     left: 0;
-    background: transparent url(/assets/images/grid.png) repeat;
+    background: transparent url(../assets/images/grid.png) repeat;
     background-color: rgba(0,0,0,0.2);
     backface-visibility:hidden;
 }
